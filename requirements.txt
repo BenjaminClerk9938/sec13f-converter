@@ -1,0 +1,4 @@
+PyMuPDF==1.20.2
+pandas==2.0.3
+xml==0.1.1
+openpyxl==3.0.9

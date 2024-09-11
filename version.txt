@@ -1,0 +1,30 @@
+# version.txt
+# UTF-8 encoded metadata file for PyInstaller
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),  # Your version
+    prodvers=(1, 0, 0, 0),  # Product version
+    mask=0x3f,              # Default mask
+    flags=0x0,              # Default flags
+    OS=0x4,                 # OS: Windows NT (NT-based)
+    fileType=0x1,           # File type: Application
+    subtype=0x0,            # No subtypes
+    date=(0, 0)             # No date
+  ),
+  kids=[
+    StringFileInfo(
+      [
+      StringTable(
+        u'040904b0',  # Language/Codepage: U.S. English, Unicode
+        [StringStruct(u'CompanyName', u'YanH.inc'),
+         StringStruct(u'FileDescription', u'xml generater'),
+         StringStruct(u'FileVersion', u'1.0.0.0'),
+         StringStruct(u'InternalName', u'xmlgen.exe'),
+         StringStruct(u'LegalCopyright', u'Copyright © YanH 2024'),
+         StringStruct(u'OriginalFilename', u'xmlgen.exe'),
+         StringStruct(u'ProductName', u'xmlgen.exe'),
+         StringStruct(u'ProductVersion', u'1.0.0.0')])
+      ]), 
+    VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
+  ]
+)
